@@ -2,6 +2,7 @@
 <rdf:RDF xmlns="http://www.semanticweb.org/admin/ontologies/2020/8/X-Omics#"
      xml:base="http://www.semanticweb.org/admin/ontologies/2020/8/X-Omics"
      xmlns:metadata="http://data.bioontology.org/metadata/"
+     xmlns:webprotege="http://webprotege.stanford.edu/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
@@ -265,6 +266,37 @@
     <!-- http://www.w3.org/2004/02/skos/core#notation -->
 
     <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#notation"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2020/8/X-Omics#hasSequence -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/admin/ontologies/2020/8/X-Omics#hasSequence">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/Personal_Information"/>
+        <rdfs:range rdf:resource="http://edamontology.org/data_2534"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2020/8/X-Omics#useMaterial -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/admin/ontologies/2020/8/X-Omics#useMaterial">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/Personal_Information"/>
+        <rdfs:range rdf:resource="http://webprotege.stanford.edu/MaterialsInformation"/>
+    </owl:ObjectProperty>
     
 
 
@@ -587,6 +619,44 @@
         <obo:IAO_0000119>GROUP: IRIDA Ontology (Emma)</obo:IAO_0000119>
         <oboInOwl:inSubset>GENEPIO</oboInOwl:inSubset>
     </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2020/8/X-Omics#Material1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/admin/ontologies/2020/8/X-Omics#Material1">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/MaterialsInformation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2020/8/X-Omics#Sequence1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/admin/ontologies/2020/8/X-Omics#Sequence1">
+        <rdf:type rdf:resource="http://edamontology.org/data_2534"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2020/8/X-Omics#TomCruise -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/admin/ontologies/2020/8/X-Omics#TomCruise">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/Personal_Information"/>
+        <hasSequence rdf:resource="http://www.semanticweb.org/admin/ontologies/2020/8/X-Omics#Sequence1"/>
+        <useMaterial rdf:resource="http://www.semanticweb.org/admin/ontologies/2020/8/X-Omics#Material1"/>
+        <webprotege:IndividualID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">001</webprotege:IndividualID>
+    </owl:NamedIndividual>
 </rdf:RDF>
 
 
