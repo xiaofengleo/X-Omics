@@ -1,0 +1,595 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/admin/ontologies/2020/8/X-Omics#"
+     xml:base="http://www.semanticweb.org/admin/ontologies/2020/8/X-Omics"
+     xmlns:metadata="http://data.bioontology.org/metadata/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:edamontology="http://edamontology.org/"
+     xmlns:STO="http://www.semanticweb.org/ontologies/STO.owl#"
+     xmlns:Prostate_cancer="http://www.semanticweb.org/ontologies/Prostate_cancer#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:Thesaurus="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/admin/ontologies/2020/8/X-Omics">
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This is an initial ontology for the description of the metadata terms from a genomics experiment.</dc:title>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">X-Omics Ontology</dc:title>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Xiaofeng Liao</dc:title>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://data.bioontology.org/metadata/prefixIRI -->
+
+    <owl:AnnotationProperty rdf:about="http://data.bioontology.org/metadata/prefixIRI"/>
+    
+
+
+    <!-- http://edamontology.org/created_in -->
+
+    <owl:AnnotationProperty rdf:about="http://edamontology.org/created_in"/>
+    
+
+
+    <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#NHC0 -->
+
+    <owl:AnnotationProperty rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#NHC0"/>
+    
+
+
+    <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#P106 -->
+
+    <owl:AnnotationProperty rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#P106"/>
+    
+
+
+    <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#P108 -->
+
+    <owl:AnnotationProperty rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#P108"/>
+    
+
+
+    <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#P208 -->
+
+    <owl:AnnotationProperty rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#P208"/>
+    
+
+
+    <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#P378 -->
+
+    <owl:AnnotationProperty rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#P378"/>
+    
+
+
+    <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#P383 -->
+
+    <owl:AnnotationProperty rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#P383"/>
+    
+
+
+    <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#P384 -->
+
+    <owl:AnnotationProperty rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#P384"/>
+    
+
+
+    <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#P90 -->
+
+    <owl:AnnotationProperty rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#P90"/>
+    
+
+
+    <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#P97 -->
+
+    <owl:AnnotationProperty rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#P97"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0000001 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0000001"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0000004 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0000004"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0000005 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0000005"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000112 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000112"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000114 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000114"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000117 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000117"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000119 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000119"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000412 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_NHC0 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_NHC0"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P106 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P106"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P108 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P108"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P207 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P207"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P366 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P366"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#created_by -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#created_by"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasDbXref -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasDefinition -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDefinition"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasExactSynonym -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasOBONamespace -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#id -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#id"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#inSubset -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#inSubset"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/Prostate_cancer#PMID -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/ontologies/Prostate_cancer#PMID"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/Prostate_cancer#URL -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/ontologies/Prostate_cancer#URL"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/Prostate_cancer#reference -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/ontologies/Prostate_cancer#reference"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/Prostate_cancer#synonyms -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/ontologies/Prostate_cancer#synonyms"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/STO.owl#OWLAnnotationProperty_54afcd0f_04b2_444f_a842_02dfbe20f3c1 -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/ontologies/STO.owl#OWLAnnotationProperty_54afcd0f_04b2_444f_a842_02dfbe20f3c1"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#notation -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#notation"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/AmountOfInputMaterialUsed -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/AmountOfInputMaterialUsed">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="urn:webprotege:ontology:2aa2dc0c-a2bc-475e-9ef0-80cb57708a18#Sample_Preparation_Information"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rdfs:label xml:lang="en">AmountOfInputMaterialUsed</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/AnatomicalSource -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/AnatomicalSource">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/MaterialsInformation"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label xml:lang="en">AnatomicalSource</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/ExpirationDate -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/ExpirationDate">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/MaterialsInformation"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+        <rdfs:label xml:lang="en">ExpirationDate</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/IndividualID -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/IndividualID">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/Personal_Information"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:label xml:lang="en">IndividualID</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/MaterialType -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/MaterialType">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/MaterialsInformation"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label xml:lang="en">MaterialType</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/PCR_Free -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/PCR_Free">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/MaterialsInformation"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <rdfs:label xml:lang="en">PCR_Free</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/StorageConditions -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/StorageConditions">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/MaterialsInformation"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label xml:lang="en">StorageConditions</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://edamontology.org/data_2534 -->
+
+    <owl:Class rdf:about="http://edamontology.org/data_2534">
+        <metadata:prefixIRI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">data_2534</metadata:prefixIRI>
+        <edamontology:created_in>beta12orEarlier</edamontology:created_in>
+        <oboInOwl:hasDefinition>An attribute of a molecular sequence, possibly in reference to some other sequence.</oboInOwl:hasDefinition>
+        <oboInOwl:hasNarrowSynonym>Sequence parameter</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/edam#data"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/edam#edam"/>
+        <rdfs:label>SequenceInformation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Target_Enrichment_Kit -->
+
+    <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Target_Enrichment_Kit">
+        <rdfs:subClassOf rdf:resource="urn:webprotege:ontology:2aa2dc0c-a2bc-475e-9ef0-80cb57708a18#Sample_Preparation_Information"/>
+        <metadata:prefixIRI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncit:C154307</metadata:prefixIRI>
+        <Thesaurus:NHC0>C154307</Thesaurus:NHC0>
+        <Thesaurus:P106>Laboratory Procedure</Thesaurus:P106>
+        <Thesaurus:P108>Enrichment</Thesaurus:P108>
+        <Thesaurus:P208>CL555306</Thesaurus:P208>
+        <Thesaurus:P90>Enrich</Thesaurus:P90>
+        <Thesaurus:P90>Enrichment</Thesaurus:P90>
+        <Thesaurus:P97>Any of various techniques designed to select or increase a target item in a mixed sample.</Thesaurus:P97>
+        <rdfs:label>Target_Enrichment_Kit</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Target_Enrichment_Kit"/>
+        <owl:annotatedProperty rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#P90"/>
+        <owl:annotatedTarget>Enrich</owl:annotatedTarget>
+        <Thesaurus:P383>SY</Thesaurus:P383>
+        <Thesaurus:P384>NCI</Thesaurus:P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Target_Enrichment_Kit"/>
+        <owl:annotatedProperty rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#P90"/>
+        <owl:annotatedTarget>Enrichment</owl:annotatedTarget>
+        <Thesaurus:P383>PT</Thesaurus:P383>
+        <Thesaurus:P384>NCI</Thesaurus:P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Target_Enrichment_Kit"/>
+        <owl:annotatedProperty rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#P97"/>
+        <owl:annotatedTarget>Any of various techniques designed to select or increase a target item in a mixed sample.</owl:annotatedTarget>
+        <Thesaurus:P378>NCI</Thesaurus:P378>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0000071 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0000071">
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/data_2534"/>
+        <metadata:prefixIRI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GENEPIO:0000071</metadata:prefixIRI>
+        <obo:GENEPIO_0000001>Sequencing</obo:GENEPIO_0000001>
+        <obo:GENEPIO_0000004>Platform</obo:GENEPIO_0000004>
+        <obo:GENEPIO_0000005>https://www.ncbi.nlm.nih.gov/books/NBK54984/table/SRA_Glossary_BK.T._platform_descriptor_t/</obo:GENEPIO_0000005>
+        <obo:IAO_0000112>Illumina (MiSeq, HiSeq), PacBio, Ion Torrent, (Roche 454), SOLiD ABI</obo:IAO_0000112>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000115 xml:lang="en">A sequencing plaform (brand) is a name of a company that produces sequencer equipment.</obo:IAO_0000115>
+        <obo:IAO_0000119>GROUP: IRIDA Ontology (Emma)</obo:IAO_0000119>
+        <oboInOwl:inSubset>GENEPIO</oboInOwl:inSubset>
+        <rdfs:label xml:lang="en">sequencing platform</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0001921 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0001921">
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/data_2534"/>
+        <metadata:prefixIRI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GENEPIO:0001921</metadata:prefixIRI>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000115 xml:lang="en">A product name and model number of a manufacturer&apos;s genomic (dna) sequencer.</obo:IAO_0000115>
+        <obo:IAO_0000117>Damion Dooley</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">sequencing instrument model</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/Personal_Information -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/Personal_Information">
+        <metadata:prefixIRI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT:C19332</metadata:prefixIRI>
+        <obo:IAO_0000115>The distinguishing qualities or prominent aspects of an individual person.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:NCIT_NHC0>C19332</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Organism Attribute</obo:NCIT_P106>
+        <obo:NCIT_P108>Personal Attribute</obo:NCIT_P108>
+        <obo:NCIT_P207>C0681884</obo:NCIT_P207>
+        <obo:NCIT_P366>Personal_Attribute</obo:NCIT_P366>
+        <oboInOwl:hasExactSynonym>Personal</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Personal Attribute</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Subject Characteristics</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Personal Information</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/MaterialsInformation -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/MaterialsInformation">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:label xml:lang="en">MaterialsInformation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- urn:webprotege:ontology:2aa2dc0c-a2bc-475e-9ef0-80cb57708a18#Birth_year -->
+
+    <owl:Class rdf:about="urn:webprotege:ontology:2aa2dc0c-a2bc-475e-9ef0-80cb57708a18#Birth_year">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/Personal_Information"/>
+        <metadata:prefixIRI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Birth_year</metadata:prefixIRI>
+        <Prostate_cancer:PMID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">19690187</Prostate_cancer:PMID>
+        <Prostate_cancer:URL>https://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&amp;ns=ncit&amp;code=C83164</Prostate_cancer:URL>
+        <Prostate_cancer:reference>NCI Thesaurus Code:C83164</Prostate_cancer:reference>
+        <Prostate_cancer:synonyms>Birth Year BRTHYR BRTHYY</Prostate_cancer:synonyms>
+        <rdfs:isDefinedBy>The year in which a person was born.</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- urn:webprotege:ontology:2aa2dc0c-a2bc-475e-9ef0-80cb57708a18#Expiration_Date -->
+
+    <owl:Class rdf:about="urn:webprotege:ontology:2aa2dc0c-a2bc-475e-9ef0-80cb57708a18#Expiration_Date">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/MaterialsInformation"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:webprotege:ontology:2aa2dc0c-a2bc-475e-9ef0-80cb57708a18#Gender -->
+
+    <owl:Class rdf:about="urn:webprotege:ontology:2aa2dc0c-a2bc-475e-9ef0-80cb57708a18#Gender">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/Personal_Information"/>
+        <metadata:prefixIRI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OWLClass_fc0128ee_dae3_4fe9_8c64_043c02f76012</metadata:prefixIRI>
+        <oboInOwl:hasDbXref>http://purl.bioontology.org/ontology/SNOMEDCT/184100006</oboInOwl:hasDbXref>
+        <STO:OWLAnnotationProperty_54afcd0f_04b2_444f_a842_02dfbe20f3c1>Patient sex</STO:OWLAnnotationProperty_54afcd0f_04b2_444f_a842_02dfbe20f3c1>
+        <STO:OWLAnnotationProperty_54afcd0f_04b2_444f_a842_02dfbe20f3c1>Sex</STO:OWLAnnotationProperty_54afcd0f_04b2_444f_a842_02dfbe20f3c1>
+        <STO:OWLAnnotationProperty_54afcd0f_04b2_444f_a842_02dfbe20f3c1>sex factor</STO:OWLAnnotationProperty_54afcd0f_04b2_444f_a842_02dfbe20f3c1>
+        <STO:OWLAnnotationProperty_54afcd0f_04b2_444f_a842_02dfbe20f3c1>sex factors</STO:OWLAnnotationProperty_54afcd0f_04b2_444f_a842_02dfbe20f3c1>
+    </owl:Class>
+    
+
+
+    <!-- urn:webprotege:ontology:2aa2dc0c-a2bc-475e-9ef0-80cb57708a18#Genotypic_Sex -->
+
+    <owl:Class rdf:about="urn:webprotege:ontology:2aa2dc0c-a2bc-475e-9ef0-80cb57708a18#Genotypic_Sex">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/Personal_Information"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A biological sex quality inhering in an individual based upon genotypic composition of sex chromosomes.</obo:IAO_0000115>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mah</oboInOwl:created_by>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">quality</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PATO:0020000</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Note that the chromosomal constitution of genotypic sex varies in different organisms. In human, we have XY, XX, though abnormal XXY, X0, XYY, and other combinations are possible.</rdfs:comment>
+        <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PATO:0020000</skos:notation>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="urn:webprotege:ontology:2aa2dc0c-a2bc-475e-9ef0-80cb57708a18#Genotypic_Sex"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A biological sex quality inhering in an individual based upon genotypic composition of sex chromosomes.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PATOC:MAH</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- urn:webprotege:ontology:2aa2dc0c-a2bc-475e-9ef0-80cb57708a18#Library_Preparation_Kit -->
+
+    <owl:Class rdf:about="urn:webprotege:ontology:2aa2dc0c-a2bc-475e-9ef0-80cb57708a18#Library_Preparation_Kit">
+        <rdfs:subClassOf rdf:resource="urn:webprotege:ontology:2aa2dc0c-a2bc-475e-9ef0-80cb57708a18#Sample_Preparation_Information"/>
+        <metadata:prefixIRI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GENEPIO:0000085</metadata:prefixIRI>
+        <obo:GENEPIO_0000001>Sequencing</obo:GENEPIO_0000001>
+        <obo:GENEPIO_0000005>inferred from BCCDC interviews</obo:GENEPIO_0000005>
+        <obo:IAO_0000112>Illumina metagenomic protocol (part 15044223), with Nextera</obo:IAO_0000112>
+        <obo:IAO_0000115>Packaged kits (containing adapters, indexes, enzymes, buffers etc), tailored for specific sequencing workflows, which allow the simplified preparation of sequencing-ready libraries for small genomes, amplicons, and plasmids.</obo:IAO_0000115>
+        <obo:IAO_0000119>GROUP: IRIDA Ontology (Emma) and  http://applications.illumina.com/applications/sequencing/ngs-library-prep.html</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- urn:webprotege:ontology:2aa2dc0c-a2bc-475e-9ef0-80cb57708a18#Residence -->
+
+    <owl:Class rdf:about="urn:webprotege:ontology:2aa2dc0c-a2bc-475e-9ef0-80cb57708a18#Residence">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/Personal_Information"/>
+        <metadata:prefixIRI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">schema:Residence</metadata:prefixIRI>
+        <rdfs:comment>The place where a person lives.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- urn:webprotege:ontology:2aa2dc0c-a2bc-475e-9ef0-80cb57708a18#Sample_Preparation_Information -->
+
+    <owl:Class rdf:about="urn:webprotege:ontology:2aa2dc0c-a2bc-475e-9ef0-80cb57708a18#Sample_Preparation_Information">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Description of the preparation steps which took place before the measurement was performed.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NMR</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NMR:1000831</oboInOwl:id>
+        <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NMR:1000831</skos:notation>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="urn:webprotege:ontology:2aa2dc0c-a2bc-475e-9ef0-80cb57708a18#Sample_Preparation_Information"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Description of the preparation steps which took place before the measurement was performed.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MSI:NMR</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- urn:webprotege:ontology:2aa2dc0c-a2bc-475e-9ef0-80cb57708a18#&apos;Sequencing_Date&apos; -->
+
+    <owl:Class rdf:about="urn:webprotege:ontology:2aa2dc0c-a2bc-475e-9ef0-80cb57708a18#&apos;Sequencing_Date&apos;">
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/data_2534"/>
+        <metadata:prefixIRI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GENEPIO:0000069</metadata:prefixIRI>
+        <obo:GENEPIO_0000001>Sequencing</obo:GENEPIO_0000001>
+        <obo:GENEPIO_0000004>Sequencing Run Date</obo:GENEPIO_0000004>
+        <obo:GENEPIO_0000005>NML NGS Archive</obo:GENEPIO_0000005>
+        <obo:IAO_0000112>yyyy/mm/dd</obo:IAO_0000112>
+        <obo:IAO_0000115 xml:lang="en">Date the sequencing run was performed</obo:IAO_0000115>
+        <obo:IAO_0000119>GROUP: IRIDA Ontology (Emma)</obo:IAO_0000119>
+        <oboInOwl:inSubset>GENEPIO</oboInOwl:inSubset>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
